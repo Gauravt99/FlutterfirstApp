@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project2/floating_tab_bar_page_view.dart';
+import 'package:project2/mycard.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,7 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: FloatingTabBarPageView(),
+      home: MyCard(),
+      //home: FloatingTabBarPageView(),
       // home: Scaffold(
       //   backgroundColor: Colors.white,
       //   body: Column(
