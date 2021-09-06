@@ -70,7 +70,6 @@ class _FloatingTabBarPageViewState extends State<FloatingTabBarPageView> {
       },
     );
   }
-  
 
   @override
   Widget build(BuildContext context) {

@@ -42,27 +42,31 @@ class MyCard extends StatelessWidget {
                       letterSpacing: 2.5),
                 ),
               ),
+              SizedBox(
+                  height: 20,
+                  width: 300,
+                  child: Divider(
+                    color: Colors.black,
+                  )),
               Card(
                 color: Colors.white,
                 //padding: EdgeInsets.all(11),
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 32),
                 child: Padding(
                   padding: const EdgeInsets.all(10),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.phone,
-                        color: Colors.teal,
-                        size: 40,
-                      ),
-                      Text(
-                        '   9075574208',
-                        style: TextStyle(
-                            fontFamily: 'SourceCodePro',
-                            fontSize: 20,
-                            color: Colors.tealAccent),
-                      )
-                    ],
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                      size: 40,
+                    ),
+                    title: Text(
+                      '9075574208',
+                      style: TextStyle(
+                          fontFamily: 'SourceCodePro',
+                          fontSize: 20,
+                          color: Colors.tealAccent),
+                    ),
                   ),
                 ),
               ),
@@ -72,21 +76,19 @@ class MyCard extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 32),
                 child: Padding(
                   padding: const EdgeInsets.all(10),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.email,
-                        color: Colors.teal,
-                        size: 40,
-                      ),
-                      Text(
-                        '   gauravtak@gmail.com',
-                        style: TextStyle(
-                            fontFamily: 'SourceCodePro',
-                            fontSize: 20,
-                            color: Colors.tealAccent),
-                      )
-                    ],
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                      size: 40,
+                    ),
+                    title: Text(
+                      'gauravtak@gmail.com',
+                      style: TextStyle(
+                          fontFamily: 'SourceCodePro',
+                          fontSize: 20,
+                          color: Colors.tealAccent),
+                    ),
                   ),
                 ),
               )

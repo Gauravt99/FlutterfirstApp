@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "521098436947",
+    "project_id": "tidy-bindery-310914",
+    "storage_bucket": "tidy-bindery-310914.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521098436947:android:78b503216dad22bfa901a6",
+        "android_client_info": {
+          "package_name": "com.example.project2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521098436947-hsclak12rpef0qrpesjcprtqh1edsslv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVc2hgboG6dZeSjwwGOTfZOnBLrVRRX2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521098436947-hsclak12rpef0qrpesjcprtqh1edsslv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
